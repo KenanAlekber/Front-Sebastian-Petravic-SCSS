@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #eeeff1;
+
+
+    main {
+        color: #1a1b1f;
+        padding: 0 20px;
+
+        .logo {
+            display: flex;
+
+            & img {
+                height: 32px;
+                width: 32px;
+            }
+
+            & span {
+                margin: auto 0;
+                margin-left: 10px;
+                font-weight: 600;
+            }
+        }
+
+        .navbar {
+            display: flex;
+            margin-top: 15px;
+            text-align: center;
+            justify-content: space-between;
+
+            & a {
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+                margin-left: 20px;
+                transition: all 0.7s;
+
+                &:hover{
+                    background-color: rgb(0, 255, 34);
+                    margin-top: 0;
+                    padding: 5px 10px;
+                    border: 1px solid #1a1b1f;
+                    border-radius: 10px;
+                }
+            }
+
+            & #btn {
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+                font-size: 17px;
+                padding: 10px;
+            }
+        }
+
+        section {
+
+            .container img {
+                padding-left: 100px;
+                padding-top: 50px;
+            }
+
+            .title {
+                display: flex;
+
+                & img {
+                    width: 470px;
+                    height: 440px;
+                    margin-left: 110px;
+                }
+
+                &-text {
+                    margin: auto;
+
+                    & h1 {
+                        font-size: 80px;
+                        margin-bottom: 43px;
+                        line-height: 90px;
+                    }
+
+                    & span {
+                        display: flex;
+                        font-size: 25px;
+                        width: 774px;
+                        margin-top: -30px;
+                        padding-right: 170px;
+                    }
+                }
+            }
+
+            .career {
+                margin: 100px 0px 15px 0px;
+                display: flex;
+
+                &-text h3 {
+                    font-size: 44px;
+                    margin-left: 90px;
+                }
+
+                &-text span {
+                    display: block;
+                    margin-top: 20px;
+                    margin-left: 90px;
+                    font-size: 22px;
+                    width: 597px;
+                    line-height: 35px;
+                }
+            }
+
+            .career-ability {
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                width: 445px;
+
+                & span {
+                    border: 1px solid rgb(185, 182, 182);
+                    border-radius: 6px;
+                    color: black;
+                    font-size: 20px;
+                    margin-right: 7px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    line-height: 41px;
+                }
+            }
+        }
+
+        section {
+
+            .footer {
+                display: flex;
+                margin-top: 300px;
+                margin-left: 170px;
+                padding-bottom: 100px;
+
+                h3 {
+                    position: absolute;
+                    font-size: 44px;
+                    padding-bottom: 40px;
+                    transform: translate(0px, -125px);
+                }
+
+                .about {
+                    transform: translate(0px, -40px);
+
+                    img {
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 100px;
+                    }
+
+                    h4 {
+                        font-size: 25px;
+                        line-height: 50px;
+                    }
+
+                    span {
+                        font-size: 20px;
+                    }
+                }
+
+                &-text span {
+                    position: absolute;
+                    transform: translate(100px, -40px);
+                    width: 880px;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
